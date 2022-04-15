@@ -1,0 +1,74 @@
+/** @format */
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(../img/bg-intro-desktop.png);
+}
+.header {
+  height: 97vh;
+  background-color: hsl(0, 100%, 74%, 0.8);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 9rem 3rem;
+  color: white;
+}
+.header-primary {
+  margin-top: 7rem;
+  padding-left: 9rem;
+}
+.main-header {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 250px;
+}
+.paragraph {
+  width: 300px;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+.form {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1rem;
+  height: 350px;
+  width: 350px;
+}
+.form-header {
+  background-color: hsl(248, 32%, 49%);
+  padding: 1rem 1.2rem;
+  width: 50%;
+  border-radius: 10px;
+}
+.group-form {
+  padding: 5px 1rem;
+}
+.btn {
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  border-style: none;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  border: none;
+  padding: 1rem 0;
+}
+input:focus {
+  outline: none;
+  border-bottom: 3px solid green;
+}
+input:focus:invalid {
+  border-bottom: 3px solid red;
+}
+.footer {
+  color: grey;
+  padding-left: 1rem;
+}
+span {
+  color: red;
+}
